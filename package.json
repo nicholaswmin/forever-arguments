@@ -1,0 +1,24 @@
+{
+  "name": "forever-arguments",
+  "version": "1.0.0",
+  "description": "ForeverJS arguments example",
+  "main": "app.js",
+  "scripts": {
+    "start": "forever start -a -l mediator.log app.js --env production --name nikolas",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholaswmin/forever-arguments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholaswmin/forever-arguments/issues"
+  },
+  "homepage": "https://github.com/nicholaswmin/forever-arguments#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nomnom": "^1.8.1"
+  }
+}
